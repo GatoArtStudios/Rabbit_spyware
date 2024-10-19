@@ -13,7 +13,7 @@ public class WebhookUtils {
         body.put("wait", true);
         body.put("content", content);
         body.put("username", userName);
-        body.put("avatar_url", "https://raw.githubusercontent.com/GatoArtStudios/kailand/web/public/favicon.png");
+        body.put("avatar_url", "https://raw.githubusercontent.com/GatoArtStudios/Rabbit_spyware/refs/heads/Gatun/img/logo_rabby_spyware.png");
 
         if (embeds instanceof JSONArray) {
             body.put("embeds", embeds);
